@@ -1,4 +1,11 @@
-import { ArrowIcon, BankIcon, BoletoIcon, CardIcon, EuroDollarIcon, PixIcon } from "./Icons";
+import {
+  ArrowIcon,
+  BankIcon,
+  BoletoIcon,
+  CardIcon,
+  EuroDollarIcon,
+  PixIcon,
+} from "./Icons";
 import Navbar from "./Navbar";
 
 export default function Header() {
@@ -37,7 +44,7 @@ export default function Header() {
       </div>
 
       {/* Conteúdo principal (Camada de cima, centralizada) */}
-      <div className="flex flex-col items-center text-center max-w-xl mx-auto  pb-48 relative z-10">
+      <div className="flex flex-col items-center text-center max-w-xl mx-auto  pb-36 relative z-10">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
           Centralize sua operação
         </h1>
@@ -51,7 +58,18 @@ export default function Header() {
       </div>
 
       {/* Seção dos Círculos e Ícones (Parte Inferior) */}
-      <div className="absolute bottom-[-691px] left-1/2 -translate-x-1/2 w-full max-w-5xl z-10 pb-16 pointer-events-none">
+      <div
+        className="
+    hidden
+    md:block     
+    absolute
+    bottom-[-691px]
+    left-1/2 -translate-x-1/2
+    w-full max-w-5xl
+    z-10 pb-16
+    pointer-events-none
+  "
+      >
         {/* Círculo mais externo */}
         <div className="relative mx-auto w-[965px] h-[965px] rounded-full border-2 border-white flex items-center justify-center pointer-events-auto">
           {/* Adquirente 1 */}

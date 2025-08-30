@@ -1,6 +1,296 @@
 
 
+export const IntegrationIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="25"
+      viewBox="0 0 24 25"
+      fill="none"
+    >
+      <g clip-path="url(#clip0_812_919)">
+        <path
+          d="M3.75 23.75L1.75 21.23C1.10692 20.4342 0.7542 19.4431 0.75 18.42V13.25C0.75 12.8522 0.908035 12.4706 1.18934 12.1893C1.47064 11.908 1.85218 11.75 2.25 11.75C2.64782 11.75 3.02936 11.908 3.31066 12.1893C3.59196 12.4706 3.75 12.8522 3.75 13.25V17.12"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M8.24981 23.7501V20.6101C8.25158 19.7227 7.98681 18.8552 7.48981 18.1201L6.34981 16.4001C6.25102 16.2358 6.1198 16.0934 5.96414 15.9816C5.80848 15.8698 5.63166 15.7909 5.44448 15.7497C5.2573 15.7085 5.06369 15.706 4.87548 15.7421C4.68726 15.7783 4.5084 15.8524 4.34981 15.9601C4.06709 16.1501 3.86338 16.4368 3.77686 16.7663C3.69034 17.0958 3.72694 17.4456 3.87981 17.7501L5.24981 20.0001"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M20.25 23.75L22.25 21.23C22.8931 20.4342 23.2458 19.4431 23.25 18.42V13.25C23.25 12.8522 23.092 12.4706 22.8107 12.1893C22.5294 11.908 22.1478 11.75 21.75 11.75C21.3522 11.75 20.9706 11.908 20.6893 12.1893C20.408 12.4706 20.25 12.8522 20.25 13.25V17.12"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M15.75 23.7501V20.6101C15.7482 19.7227 16.013 18.8552 16.51 18.1201L17.65 16.4001C17.7488 16.2358 17.88 16.0934 18.0357 15.9816C18.1913 15.8698 18.3682 15.7909 18.5553 15.7497C18.7425 15.7085 18.9361 15.706 19.1243 15.7421C19.3126 15.7783 19.4914 15.8524 19.65 15.9601C19.9327 16.1501 20.1364 16.4368 20.223 16.7663C20.3095 17.0958 20.2729 17.4456 20.12 17.7501L18.75 20.0001"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M7.42 3.08008L3.75 5.83008L7.42 8.58008"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M16.5801 3.08008L20.2501 5.83008L16.5801 8.58008"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M12.9201 1.25L11.0801 10.42"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_812_919">
+          <rect
+            width="24"
+            height="24"
+            fill="white"
+            transform="translate(0 0.5)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+}
 
+export const UpdateIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="25"
+      viewBox="0 0 24 25"
+      fill="none"
+    >
+      <g clip-path="url(#clip0_812_934)">
+        <path
+          d="M23.25 7.55078L13.15 16.0508L10.35 12.7508L0.75 20.3508"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M3.25 23.35V18.3672"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M3.25 15.2496V6.34961"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M8.25 10.35V1.25"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M13.25 10.7496V4.34961"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M18.25 4.35V1.25"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M8.25 19.55V14.4375"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M13.25 20.75V15.9844"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M18.25 23.75V11.75"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M18.75 7.55078H23.25V11.7508"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_812_934">
+          <rect
+            width="24"
+            height="24"
+            fill="white"
+            transform="translate(0 0.5)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+}
+
+export const SuporteIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="25"
+      viewBox="0 0 24 25"
+      fill="none"
+    >
+      <g clip-path="url(#clip0_812_949)">
+        <path
+          d="M14.248 23.7072L9.948 21.8663V19.4113C9.948 19.4113 11.011 18.9822 11.011 16.3432C11.85 16.3432 12.169 13.8892 11.002 13.8892C11.2517 13.537 11.4282 13.1382 11.521 12.7165C11.6137 12.2948 11.6209 11.8588 11.542 11.4342C10.942 8.98025 5 8.98025 4.397 11.4342C1.862 10.9072 3.88 13.5342 3.88 13.8892C2.68 13.8892 2.68 16.3432 3.88 16.3432C3.88 18.9822 5.039 19.4113 5.039 19.4113V21.8663L0.75 23.7063"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M14.25 13.3438V17.8438L18.75 13.3438H21.75C22.1478 13.3437 22.5294 13.1857 22.8107 12.9044C23.092 12.6231 23.25 12.2416 23.25 11.8438V2.84375C23.25 2.44593 23.092 2.06439 22.8107 1.78309C22.5294 1.50179 22.1478 1.34375 21.75 1.34375H9.75C9.35218 1.34375 8.97064 1.50179 8.68934 1.78309C8.40804 2.06439 8.25 2.44593 8.25 2.84375V5.84375"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M12.75 5.09375L15 7.34375L12.75 9.59375"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M18 7.34375H20.25"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_812_949">
+          <rect
+            width="24"
+            height="24"
+            fill="white"
+            transform="translate(0 0.5)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+}
+
+export const SecurityGlobalIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="25"
+      viewBox="0 0 24 25"
+      fill="none"
+    >
+      <g clip-path="url(#clip0_812_957)">
+        <path
+          d="M2.25003 4.42393V12.0379C2.25005 14.4446 2.97935 16.7947 4.34179 18.7786C5.70423 20.7624 7.63585 22.2869 9.88203 23.1509L10.923 23.5509C11.6163 23.8176 12.3838 23.8176 13.077 23.5509L14.118 23.1509C16.3642 22.2869 18.2958 20.7624 19.6583 18.7786C21.0207 16.7947 21.75 14.4446 21.75 12.0379V4.42393C21.7519 4.13742 21.671 3.85645 21.5171 3.61482C21.3631 3.37319 21.1426 3.1812 20.882 3.06193C18.0819 1.83972 15.0552 1.22259 12 1.25093C8.94489 1.22259 5.9182 1.83972 3.11803 3.06193C2.85751 3.1812 2.63699 3.37319 2.48301 3.61482C2.32902 3.85645 2.24812 4.13742 2.25003 4.42393Z"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M6 11.75C6 13.3413 6.63214 14.8674 7.75736 15.9926C8.88258 17.1179 10.4087 17.75 12 17.75C13.5913 17.75 15.1174 17.1179 16.2426 15.9926C17.3679 14.8674 18 13.3413 18 11.75C18 10.1587 17.3679 8.63258 16.2426 7.50736C15.1174 6.38214 13.5913 5.75 12 5.75C10.4087 5.75 8.88258 6.38214 7.75736 7.50736C6.63214 8.63258 6 10.1587 6 11.75Z"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M12 5.75C15 9.75 15 13.75 12 17.75"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M12 5.75C9 9.75 9 13.75 12 17.75"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M6 11.75H18"
+          stroke="#484848"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_812_957">
+          <rect
+            width="24"
+            height="24"
+            fill="white"
+            transform="translate(0 0.5)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+}
 
 export const ArrowIcon = ({ color = "black" }) => {
   return (
