@@ -1,4 +1,5 @@
 import AboutProduct from "./components/AboutProduct"
+import BankSection from "./components/BankSection";
 import Header from "./components/Header"
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <AboutProduct />
+      <BankSection />
     </>
   );
 }

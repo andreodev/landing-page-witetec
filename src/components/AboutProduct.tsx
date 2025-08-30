@@ -4,7 +4,7 @@ import imagem2 from "../assets/productSectionAPI.png";
 
 export default function AboutProduct() {
   return (
-    <section className="bg-[#FAFAFA] text-black">
+    <section className="bg-[#FAFAFA] text-black pt-[120px]">
       <div className="mx-auto max-w-7xl sm:justify-center sm:items-center  space-y-16 sm:space-y-20 lg:space-y-28">
         {/* 1) Produto */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-14 lg:gap-20 items-center">
