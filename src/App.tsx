@@ -2,6 +2,7 @@ import AboutProduct from "./components/AboutProduct"
 import BankSection from "./components/BankSection";
 import Processados from "./components/Processados";
 import Header from "./components/Header"
+import Diferenciais from "./components/Diferenciais";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <AboutProduct />
       <BankSection />
       <Processados />
+      <Diferenciais />
     </>
   );
 }
