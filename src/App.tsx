@@ -3,6 +3,7 @@ import BankSection from "./components/BankSection";
 import Processados from "./components/Processados";
 import Header from "./components/Header"
 import Diferenciais from "./components/Diferenciais";
+import Contact from "./components/FormContato";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <BankSection />
       <Processados />
       <Diferenciais />
+      <Contact />
     </>
   );
 }
