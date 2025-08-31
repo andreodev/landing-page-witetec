@@ -1,13 +1,23 @@
-import { ArrowIcon, CheckGreen, IntegrationIcon, SecurityGlobalIcon, SuporteIcon, UpdateIcon } from "./Icons";
+import {
+  ArrowIcon,
+  CheckGreen,
+  IntegrationIcon,
+  SecurityGlobalIcon,
+  SuporteIcon,
+  UpdateIcon,
+} from "./Icons";
 import imagem1 from "../assets/productSection.png";
 import imagem2 from "../assets/productSectionAPI.png";
 
 export default function AboutProduct() {
   return (
-    <section className="bg-[#FAFAFA] text-black py-[120px]">
-      <div className="mx-auto max-w-7xl sm:justify-center sm:items-center  space-y-16 sm:space-y-20 lg:space-y-28">
+    <section className="bg-[#FAFAFA] text-black py-[80px] sm:py-[120px] px-4">
+      <div className="mx-auto w-full max-w-7xl space-y-16 sm:space-y-20 lg:space-y-28">
         {/* 1) Produto */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-14 lg:gap-20 items-center">
+        <div
+          className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-14 lg:gap-20 items-center"
+          id="COMPLIANCE"
+        >
           {/* Imagem */}
           <div className="flex justify-center">
             <img
@@ -19,7 +29,7 @@ export default function AboutProduct() {
 
           {/* Texto */}
           <div className="w-full">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+            <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold leading-tight">
               Compliance ágil e preventivo
             </h2>
 
@@ -45,24 +55,30 @@ export default function AboutProduct() {
             </div>
 
             <button className="mt-8 inline-flex items-center gap-2 rounded-3xl bg-black text-white px-6 py-3 sm:px-7 sm:py-3.5 font-semibold hover:bg-gray-800 transition-colors">
-              Fale com um especialista <ArrowIcon color="white" />
+              <a href="#form" className=" flex">
+                Fale com um especialista{" "}
+                <p className="ml-1">
+                  <ArrowIcon color="white" />
+                </p>
+              </a>
             </button>
           </div>
         </div>
 
-        {/* 2) Produto (colunas invertidas no desktop para variar o layout) */}
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 sm:gap-14 lg:gap-20 ">
+        {/* 2) Produto */}
+        <div
+          className="grid grid-cols-1 xl:grid-cols-2 gap-10 sm:gap-14 lg:gap-20"
+          id="API"
+        >
           {/* Texto */}
           <div className="order-2 md:order-1 w-full">
             <h2 className="text-2xl sm:text-3xl lg:text-[64px] font-bold leading-tight">
               API de fácil integração
             </h2>
-            <p className="mt-4 text-lg font-medium sm:text-lg text-[#000000B2]">
+            <p className="mt-4 text-base sm:text-lg text-[#000000B2]">
               Integre a nossa API com a nossa documentação e conte com o suporte
               ativo da nossa equipe técnica para auxiliar na integração.
             </p>
-
-            {/* Exemplo de lista (opcional) */}
 
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-base sm:text-lg">
               {/* card */}
@@ -105,13 +121,6 @@ export default function AboutProduct() {
                 </span>
               </div>
             </div>
-
-            {/* CTA opcional */}
-            {/* 
-            <button className="mt-6 inline-flex items-center gap-2 rounded-3xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800 transition-colors">
-              Conhecer mais <ArrowIcon color="white" />
-            </button>
-            */}
           </div>
 
           {/* Imagem */}

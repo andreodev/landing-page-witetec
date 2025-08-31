@@ -5,7 +5,7 @@ import { Crypto, Suport } from "./Icons";
 
 export default function Diferenciais() {
   return (
-    <section className="bg-[#FAFAFA] py-16 sm:py-20">
+    <section className="bg-[#FAFAFA] py-16 sm:py-20" id="funcionalidades">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Título */}
         <div className="text-center mb-12">
@@ -80,7 +80,7 @@ export default function Diferenciais() {
         </div>
 
         {/* 3) API de disputas (card + fluxo) */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch mt-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch mt-5">
           {/* Card esquerdo (1 coluna) */}
           <div className="bg-white rounded-3xl border border-[#E3EAF7] p-8 sm:p-10">
             <div className="mb-5 h-10 w-10 rounded-lg bg-black/5 grid place-items-center">
@@ -102,7 +102,7 @@ export default function Diferenciais() {
           </div>
 
           {/* Fluxo direito (2 colunas) */}
-          <div className="lg:col-span-2">
+          <div className="">
             <div className="relative w-full">
               <img
                 src={reembolso}

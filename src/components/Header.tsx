@@ -53,7 +53,12 @@ export default function Header() {
           sua empresa.
         </p>
         <button className="flex font-normal items-center gap-2 mt-10 px-6 py-4 bg-white text-black  rounded-full hover:bg-gray-200 transition-colors duration-300">
-          Fale com um especialista <ArrowIcon />
+          <a href="#form" className="flex">
+            Fale com um especialista{" "}
+            <p className="ml-1">
+              <ArrowIcon />
+            </p>
+          </a>
         </button>
       </div>
 

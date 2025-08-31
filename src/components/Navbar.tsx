@@ -19,45 +19,57 @@ export default function Navbar() {
             />
             <ul className="hidden lg:flex items-center gap-4 text-sm">
               <li>
-                <a className="hover:text-black transition-colors" href="#">
+                <a className="hover:text-black transition-colors" href="#API">
                   API
                 </a>
               </li>
               <li>
-                <a className="hover:text-black transition-colors" href="#">
+                <a
+                  className="hover:text-black transition-colors"
+                  href="#COMPLIANCE"
+                >
                   Compliance
                 </a>
               </li>
               <li>
-                <a className="hover:text-black transition-colors" href="#">
+                <a
+                  className="hover:text-black transition-colors"
+                  href="#tecnologiaPix"
+                >
                   Tecnologia PIX
                 </a>
               </li>
               <li>
-                <a className="hover:text-black transition-colors" href="#">
+                <a
+                  className="hover:text-black transition-colors"
+                  href="#funcionalidades"
+                >
                   Funcionalidades
                 </a>
               </li>
               <li>
-                <a className="hover:text-black transition-colors" href="#">
+                <a
+                  className="hover:text-black transition-colors"
+                  href="#aplicativo"
+                >
                   Aplicativo
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a className="hover:text-black transition-colors" href="#">
                   WiteLabel
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
           {/* ações desktop */}
           <div className="hidden lg:flex items-center gap-2">
-            <button className="border border-black text-black py-2 px-4 rounded-full hover:bg-black/5 transition">
-              Entrar
+            <button className="border cursor-pointer border-black text-black py-2 px-4 rounded-full hover:bg-black/5 transition">
+              <a href="https://app.witetec.com/login">Entrar</a>
             </button>
-            <button className="bg-black text-white py-2 px-5 rounded-full hover:opacity-90 transition">
-              Falar com um especialista
+            <button className="bg-black cursor-pointer text-white py-2 px-5 rounded-full hover:opacity-90 transition">
+              <a href="#form">Falar com um especialista</a>
             </button>
           </div>
 
@@ -104,20 +116,23 @@ export default function Navbar() {
               <li>
                 <a
                   className="block rounded-lg px-3 py-2 hover:bg-black/5"
-                  href="#"
+                  href="#API"
                 >
                   API
                 </a>
               </li>
               <li>
-                <a className="block rounded-lg px-3 py-2 hover:bg黑/5" href="#">
+                <a
+                  className="block rounded-lg px-3 py-2 hover:bg黑/5"
+                  href="#COMPLIANCE"
+                >
                   Compliance
                 </a>
               </li>
               <li>
                 <a
                   className="block rounded-lg px-3 py-2 hover:bg-black/5"
-                  href="#"
+                  href="#tecnologiaPix"
                 >
                   Tecnologia PIX
                 </a>
@@ -125,7 +140,7 @@ export default function Navbar() {
               <li>
                 <a
                   className="block rounded-lg px-3 py-2 hover:bg-black/5"
-                  href="#"
+                  href="#funcionalidades"
                 >
                   Funcionalidades
                 </a>
@@ -133,7 +148,7 @@ export default function Navbar() {
               <li>
                 <a
                   className="block rounded-lg px-3 py-2 hover:bg-black/5"
-                  href="#"
+                  href="#aplicativo"
                 >
                   Aplicativo
                 </a>
@@ -150,10 +165,10 @@ export default function Navbar() {
 
             <div className="mt-3 flex gap-2">
               <button className="flex-1 border border-black text-black py-2 px-4 rounded-xl hover:bg-black/5 transition">
-                Entrar
+                <a href="https://app.witetec.com/login">Entrar</a>
               </button>
-              <button className="flex-1 bg-black text-white py-2 px-4 rounded-xl hover:opacity-90 transition">
-                Falar com um especialista
+              <button className="flex-1 cursor-pointer bg-black text-white py-2 px-4 rounded-xl hover:opacity-90 transition">
+                <a href="#form">Falar com um especialista</a>
               </button>
             </div>
           </div>

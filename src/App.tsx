@@ -4,6 +4,8 @@ import Processados from "./components/Processados";
 import Header from "./components/Header"
 import Diferenciais from "./components/Diferenciais";
 import Contact from "./components/FormContato";
+import MobileAdSection from "./components/MobileAdSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Processados />
       <Diferenciais />
       <Contact />
+      <MobileAdSection />
+      <Footer />
     </>
   );
 }
