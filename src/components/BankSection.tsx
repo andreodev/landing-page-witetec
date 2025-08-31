@@ -2,7 +2,10 @@ import { Baas, Bank, CheckWhite, Clock, Secure, User } from "./Icons";
 
 export default function BankSection() {
   return (
-    <section className="bg-gradient-to-t to-black from-[#1C1C1C] text-white flex flex-col items-center justify-start min-h-svh py-20 px-6" id="tecnologiaPix">
+    <section
+      className="bg-gradient-to-t to-black from-[#1C1C1C] text-white flex flex-col items-center justify-start min-h-svh py-20 px-6"
+      id="tecnologiaPix"
+    >
       {/* Texto em cima */}
       <div className="max-w-6xl text-center">
         <h1 className="font-bold text-3xl sm:text-5xl md:text-[64px] leading-tight">

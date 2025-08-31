@@ -73,8 +73,7 @@ export default function Diferenciais() {
             <p className="text-base leading-relaxed">
               Nossa equipe está sempre pronta para ajudar via WhatsApp,
               garantindo operações contínuas e eficientes, seja para resolver
-              problemas técnicos ou otimizar processos. Com nosso apoio
-              constante, você pode se concentrar no sucesso do seu negócio!
+              problemas técnicos ou otimizar processos.
             </p>
           </div>
         </div>
