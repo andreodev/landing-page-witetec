@@ -20,7 +20,7 @@ export default function Footer() {
 
               <div className="mt-6">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/witetec"
                   aria-label="Instagram"
                   className="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-white/4 ring-1 ring-white/15 hover:bg-white/15 transition"
                 >
