@@ -27,7 +27,7 @@ export default function Contact() {
         publicKey: PUBLIC_KEY,
       });
       formRef.current.reset();
-      setResult({ ok: true, msg: "Formulário enviado com sucesso! 🎉" });
+      window.open("/sucesso", "_blank");
     } catch (err) {
       setResult({ ok: false, msg: "Falha ao enviar. Tente novamente." });
       console.error(err);
